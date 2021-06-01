@@ -1,0 +1,123 @@
+/* font-family: 'Arvo', serif;
+font-family: 'Merriweather Sans', sans-serif;
+ */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: aqua;
+}
+#title{
+    background-color: rgb(243, 243, 243);
+}
+.navbar{padding: 5px 100px;}
+.navbar-brand-img{margin-left:30px;}
+.nav-left{margin-left:30px;}
+.navbar-light .navbar-brand {color: rgba(0,0,0,.7);}
+.navbar-light{background-color: rgb(213, 226, 230);}
+.navbar-brand{
+    padding-left: 1rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.nav-link{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+button{
+    height: 40px;
+    width: 40px;
+    padding: 5%;
+}
+.navbar-toggler {
+    padding: .25rem .25rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+#middle-area{
+    margin: 2% 10%;
+    border-style: groove;
+}
+.personal-image{margin: 2% 8% 0% 10%;}
+
+.Profile-Summery-container{ padding: 2% 8% 0% 7%; }
+
+figure{overflow: hidden;}
+
+.image {
+	display: inline-block;
+	text-align:center;
+}
+figure {
+	overflow: hidden;
+	margin: 15px 25px;
+}
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.image #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.7s ease-in-out;
+}
+.image #zoom-In figure:hover img {
+	transform: scale(1.2);
+}
+footer{
+    padding: 3% 10%;
+    background-color: rgb(65, 66, 66);
+    color: rgb(243, 243, 212);
+    font-size: 1rem;
+}
+.copyright{
+    background-color:black;
+    color: rgb(223, 223, 211);
+    font-size: 0.9em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1rem;
+    text-align: center;
+}
+.font1{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 900;
+    color: rgb(61, 61, 61);
+    font-size: 3rem;
+    line-height: 0.9;
+    margin: 10px;
+}
+.font2{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.font3{
+    color: white;
+}
+.font4{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+    text-align: center;
+}
+#about-section{
+    margin: 7% 15%;
+    text-align: center;
+}
+#field-exp{
+    margin: 7% 15%;
+}
+.solution{
+    margin: 3% 15%;
+}
